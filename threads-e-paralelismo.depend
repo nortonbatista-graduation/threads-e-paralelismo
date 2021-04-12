@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1618190680 source:/home/norton/Documents/SO/threads-e-paralelismo/main.cpp
+1618191511 source:/home/norton/Documents/SO/threads-e-paralelismo/main.cpp
 	<iostream>
 	<chrono>
 	"lib/timer.h"
@@ -7,5 +7,5 @@
 
 1618190277 /home/norton/Documents/SO/threads-e-paralelismo/lib/timer.h
 
-1618190197 /home/norton/Documents/SO/threads-e-paralelismo/lib/matrix.h
+1618191543 /home/norton/Documents/SO/threads-e-paralelismo/lib/matrix.h
 
