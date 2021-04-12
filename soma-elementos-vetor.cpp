@@ -1,6 +1,7 @@
+#include <iostream>
 #include <time.h>
-#include <stdio.h>
-#include <stdlib.h>
+
+using namespace std;
 
 int main(){
   int tamanho_vetor = 10;
@@ -15,9 +16,9 @@ int main(){
   //soma todos os valores do vetor e imprime cada valor
   for(int i = 0; i < tamanho_vetor; i++){
     soma += vetor[i];
-    printf("vetor %d: %f\n", i, vetor[i]);
+    cout << "vetor " << i << ":" << vetor[i] << endl;
   }
 
   //imprime o valor da soma
-  printf("Soma: %f\n", soma);
+  cout << "Soma: " << soma << endl;
 }
