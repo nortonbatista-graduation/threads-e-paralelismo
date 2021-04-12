@@ -10,8 +10,8 @@ int main()
     srand(time(NULL));
 
     auto start = now();
-    int width = 3;
-    int height = 2;
+    int width = 4000;
+    int height = 1000;
 
     matrix_struct* matrix_a = generate_matrix(height, width);
     matrix_struct* matrix_b = generate_matrix(width, height);
