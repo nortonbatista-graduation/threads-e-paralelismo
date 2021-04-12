@@ -38,7 +38,7 @@ int* generate_array(int width)
     int* new_array = new int[width];
 
     for(int i = 0; i < width; i++){
-        new_array[i] = rand() % 10;
+        new_array[i] = rand() % 1000;
     }
 
     return new_array;
