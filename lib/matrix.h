@@ -38,7 +38,7 @@ int* generate_array(int width)
     int* new_array = new int[width];
 
     for(int i = 0; i < width; i++){
-        new_array[i] = rand() % 1000;
+        new_array[i] = rand() % 5;
     }
 
     return new_array;
@@ -67,7 +67,7 @@ matrix_struct* multiply_matrix(matrix_struct* matrix_a, matrix_struct* matrix_b)
         for(int j = 0; j < multiplied_matrix->width; j++){
             multiplied_matrix->matrix[i][j] = 0;
 
-            for(int k = 0; k < matrix_a->height; k++){
+            for(int k = 0; k < matrix_a->height + 1; k++){
                 multiplied_matrix->matrix[i][j] += matrix_a->matrix[i][k] * matrix_b->matrix[k][j];
             }
         }
