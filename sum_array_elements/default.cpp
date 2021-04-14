@@ -9,8 +9,8 @@ using namespace std;
 // g++ sum_array_elements_single_thread.cpp -o sum_array_elements_single_thread
 // ./sum_array_elements_single_thread
 
-const int array_size = 160000;
-float array[array_size] = { 0 };
+const int array_size = 1000000;
+int array[array_size] = { 0 };
 
 void fill_array(){
   for (int i = 0; i < array_size; i++) {  
@@ -29,7 +29,6 @@ int main(){
   auto start = now();
   for (int i = 0; i < array_size; i++){
     sum += array[i];
-    // cout << "posicao " << i << ", valor:" << array[i] << endl;
   }
   auto finish = now();
 
